@@ -37,7 +37,7 @@ spec:
         - name: vpro-db-data
           # This AWS EBS volume must already exist.
           awsElasticBlockStore:
-             volumeID: vol-06d5e41daa47b8556
+             volumeID: vol-0cb5c4137b74b20fe
              fsType: ext4
 
       initContainers:
